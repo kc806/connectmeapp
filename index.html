@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>connectMe!</title>
+		<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="/styles/style.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src = "/socket.io/socket.io.js"></script>
+	</head>
+	<body background="/images/jungle1.jpg" id="bg" alt="">
+		<div class="container">
+
+			<div id="userFormArea" class="row">
+
+				<div class="col-md-12" id="frontpage">
+					<div class="alert alert-danger alert-dismissable" id="userError">
+						<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+						Try a different username...(No spaces!)
+  					</div>
+					<center>
+					<img src="/images/connectMelogo.png"/>
+<<<<<<< HEAD
+					<img id="welcomegif" src="https://media.giphy.com/media/CFaOGCZrcyPDO/giphy.gif" size="5" title="Welcome!" />
+					<br/>
+=======
+					<img id="welcomegif" src="https://media.giphy.com/media/CFaOGCZrcyPDO/giphy.gif" size="5" title="Welcome!" height = "450px" />
+					<br/>
+					<br></br>
+>>>>>>> d26ec13d63745ed5fe0f86c75e36e8a5f4b109f8
+					<form id = "userForm" class = "form-inline justify-content-center">
+						<div class = "form-group">
+							<label> <h5> Nickname: </h5></label>
+							<input id ="username" class = "form-control"></input>
+							<input type="submit" class="btn btn-primary" value = "Enter" />
+						</div>
+					</form>
+<<<<<<< HEAD
+=======
+					<small><center>&copy; Copyright 2017, connectMe Inc Corp.<br/>Kevin Cheung, Ittihad Chowdhury, and Taha Sharafat</center></small>
+>>>>>>> d26ec13d63745ed5fe0f86c75e36e8a5f4b109f8
+					</center>
+				</div>
+
+
+			</div>
+			<div class="row" id="messageArea">
+				<div class = "col-md-4" id="onlinebox">
+					<div class="alert alert-info">
+						<h4><center>Active Users</center></h4>
+						<ul class = "list-group" id ="users"></ul>
+					</div>
+				</div>
+				<center><img id = "insideLogo" src="/images/connectMelogo.png"/ ></center>
+				<div class = "col-md-7" id="chatbox">
+					<div class = "chat" id="chat"> </div>
+
+
+					<form id = "messageForm">
+						<div class = "form-group">
+							<label><strong>Enter Message:</strong></label>
+							<textarea class = "form-control" id ="message"></textarea>
+							<br />
+							<input type="submit" id ="submit" class="btn btn-primary" value = "Send" />
+							<small><i>*/w [user] [message] to whisper</i></small>
+						</div>
+					</form>
+					
+					<small><center>&copy; Copyright 2017, connectMe Inc Corp.<br/>Kevin Cheung, Ittihad Chowdhury, and Taha Sharafat</center></small>
+				</div>
+			</div>
+
+		</div>
+		<script src="/js/script.js"></script>
+	</body>
+<<<<<<< HEAD
+			<footer>
+ 			<small><center>&copy; Copyright 2017, connectMe Inc Corp.<br/>Kevin Cheung, Ittihad Chowdhury, and Taha Sharafat</center></small>
+			</footer>
+=======
+			
+>>>>>>> d26ec13d63745ed5fe0f86c75e36e8a5f4b109f8
+</html>

@@ -1,0 +1,62 @@
+
+body{
+	margin-top: 30px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+	
+>>>>>>> d26ec13d63745ed5fe0f86c75e36e8a5f4b109f8
+>>>>>>> aeed7ab28d0f82bea3991530b918176d173b418a
+}
+
+#messageArea{
+	display:none;
+}
+#chatbox{
+  background-color: #F0FFFF;
+	float:right;
+}
+#onlinebox{
+<<<<<<< HEAD
+	height:500px;
+	float: right;
+	overflow: scroll;
+=======
+<<<<<<< HEAD
+	float:left;
+=======
+	float: right;
+>>>>>>> d26ec13d63745ed5fe0f86c75e36e8a5f4b109f8
+>>>>>>> aeed7ab28d0f82bea3991530b918176d173b418a
+}
+#welcomegif{
+	width: 580px;
+	height: auto;
+	padding: 20px;
+}
+#checkbox{
+	padding:30px;
+}
+#userError{
+	display:none;
+}
+#chat{
+	height: 400px;
+	width: auto;
+  	overflow: scroll;
+  	word-wrap: break-word;
+}
+#insideLogo{
+<<<<<<< HEAD
+	width: 400px;
+	height: auto;
+}
+=======
+	width: 300px;
+	height: auto;
+}
+
+
+>>>>>>> d26ec13d63745ed5fe0f86c75e36e8a5f4b109f8

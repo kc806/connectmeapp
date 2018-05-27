@@ -1,0 +1,24 @@
+{
+  "name": "connectme",
+  "version": "1.0.0",
+  "description": "Chat Application Final Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Cheung, Ittihad Chowdhury, Taha Sharafat",
+  "license": "ISC",
+
+  "engines": {
+    "node": "*"
+  },
+
+  "dependencies": {
+    "express": "*",
+    "mysql": "^2.15.0",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
