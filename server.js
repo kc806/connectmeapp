@@ -10,25 +10,16 @@ connections = [];
 var ret = [];
 app.use(express.static('public'));
 
-<<<<<<< HEAD
 var port = process.env.PORT || 5000
 
 server.listen(port, function() {
     console.log("App is running on port " + port);
 =======
 const db = mysql.createConnection({
-<<<<<<< HEAD
 		host     : 'us-cdbr-iron-east-04.cleardb.net',
 		user     : 'b715593a14ec56',
 		password : '1116d798',
 		database : 'heroku_944d64edb0365cb'
-=======
-    host: 'us-cdbr-iron-east-04.cleardb.net',
-    user: 'b715593a14ec56',
-    password: '1116d798',
-    database: 'heroku_944d64edb0365cb'
->>>>>>> d26ec13d63745ed5fe0f86c75e36e8a5f4b109f8
->>>>>>> aeed7ab28d0f82bea3991530b918176d173b418a
 });
 
 db.connect((err) => {
