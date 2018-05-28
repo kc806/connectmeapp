@@ -18,10 +18,10 @@ server.listen(port, function() {
 =======
 const db = mysql.createConnection({
 <<<<<<< HEAD
-		host     : 'localhost',
-		user     : 'root',
-		password : 'localhost2341',
-		database : 'connectme'
+		host     : 'us-cdbr-iron-east-04.cleardb.net',
+		user     : 'b715593a14ec56',
+		password : '1116d798',
+		database : 'heroku_944d64edb0365cb'
 =======
     host: 'us-cdbr-iron-east-04.cleardb.net',
     user: 'b715593a14ec56',
